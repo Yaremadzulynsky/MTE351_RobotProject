@@ -1,0 +1,46 @@
+# Simulink project files
+slprj.*
+slprj/
+sccprj/
+
+# Simulink cache files (compiled models)
+*.slxc
+
+# MATLAB autosave files
+*.asv
+*.m~
+
+# Compiled MEX binaries
+*.mex*
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Generated helpsearch folders
+helpsearch*/
+
+# MATLAB code generation folders
+codegen/
+
+# Simulink autosave extension
+*.autosave
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

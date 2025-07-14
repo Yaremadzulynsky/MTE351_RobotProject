@@ -16,8 +16,8 @@ motor.Kt = 0.1;      % Nm/A
 motor.Ke = 0.1;      % V/(rad/s)
 
 % Suspension parameters (tunable in Task 5)
-susp.k = 9.8*30;   % N/m
-susp.c = 1;    % Ns/m
+susp.k = 1500;   % N/m
+susp.c = 1500;    % Ns/m
 
 world.gravity = 9.8; %m/s^2
 
