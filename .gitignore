@@ -1,3 +1,4 @@
+
 # Simulink project files
 slprj.*
 slprj/
@@ -44,3 +45,4 @@ codegen/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
