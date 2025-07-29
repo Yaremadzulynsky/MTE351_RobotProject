@@ -50,7 +50,7 @@ problem = createOptimProblem('fmincon', ...
     'options', opts);
 
 ms = MultiStart('Display', 'iter', 'UseParallel', true);
-[x_best, fval_best, exitflag, output, solutions] = run(ms, problem, 20);  % 3 starting points
+[x_best, fval_best, exitflag, output, solutions] = run(ms, problem, 20);  % 20 starting points for high accuracy
 
 numSols = numel(solutions);
 results = table('Size', [numSols 3], ...
