@@ -2,14 +2,14 @@
 % Project-wide Parameters
 
 % Robot Geometry
-robot.mass_robot = 20;       % kg
+robot.mass_robot = 10;       % kg
 robot.mass_payload = 10;     % kg
 robot.height = 5;            % m
 robot.diameter = 0.5;        % m
 robot.wheel_radius = 0.05;   % m
 robot.gear_ratio = 10;
 
-v = 3; % ms-1 (Assumed planar velocity of robot)
+v = 22; % ms-1 (Assumed planar velocity of robot)
 t = linspace(0, 33/v, 1000); % s (timescale of 0 to 33/v s with 1000 even-spaced divisions
 x = interp1([0 15 25 33]/v, [0 -15 -15 -7], t); % m (linearly interpolated x coordinates of the robot's full path)
 y = interp1([0 15 25 33]/v, [0 0 10 10], t); % m (linearly interpolated y coordinates of the robot's full path)
